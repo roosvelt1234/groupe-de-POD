@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    margin: 50px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: inline-block;
+    text-align: left;
+}
+
+.form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form input[type="text"] {
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.form input[type="submit"] {
+    font-size: 18px;
+    padding: 10px 20px;
+}
