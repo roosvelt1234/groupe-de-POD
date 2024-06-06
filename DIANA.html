@@ -1,0 +1,40 @@
+
+  <!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="diana.css">
+	<title>Document</title>
+</head>
+<body>
+    <div class="container">
+     
+    <H1>DEMANDE DE CONGE</H1>
+    <form method="post" action="traitement.php">
+                       <label>Veuillez inserer vos informations personnel</label><br/>
+                        <label> nom :     <input type="text" name="nom"/></label><br/>
+                        <label> prenom :  <input type="text" name="prenom"/></label><br/>
+                        <label> poste:    <input type="text" name="poste"/></label><br/>
+                        <label> telephone:   <input type="text" name="telephone"/><br/>
+                        <label> email du directeur:    <input type="text" name="email"/></label><br/>
+                        <select  name="type_conge">Veuillez selectionner le type de conge que vous souhaitez obternir 
+                                <option value="conge de maternite ">conge de maternite </option>
+                                <option value="conge de maladie">conge de maladie </option>
+                                <option value="conge de paternite ">conge de paternite </option>
+                                <option value="conge payer ">conge payer </option>
+                                <option value="autres">autres</option>
+                        </select><br/>
+                        <label>VEUILLEZ ENTER LA DATE DE DEBUT ET DE FIN DE VOS CONGES</label><br/>
+                            <label for="date_debut">date de debut:  <input type="date" id="date_debut"  name="date_debut"  require/></label><br/>
+                            <label for="date_fin">date de fin:   <input type="date"  id="date_fin" name="date_fin" required /> </label><br/>   
+                             <label>ENTRER UN COMMENTAIRE</label><br/>
+                                <textarea name="motif" id="motif" cols="30" rows="10"></textarea>
+                                <button type="submit" >Envoyer</button> 
+                                <button type="reset" >Annuler</button>
+                    </div>                           
+    </FOrm>
+</div>
+</div>
+	
+</body>
+</html>

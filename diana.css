@@ -1,0 +1,26 @@
+h1{
+   background-color: aquamarine;
+   display: block;
+   padding : 5px;
+}
+.container{
+    border: 5px solid;
+    margin-left: 50px;
+    border: 2px solid #7d9ba5;
+        margin: auto;
+        text-align: center;
+}
+input{
+    text-align: left;
+}
+.diana{
+    border: 5px solid black;
+    margin-left:  3PX;
+}
+h1{
+    text-align: center;
+}
+body{text-align: left;}
+envoyer{
+    text-align: right;
+}

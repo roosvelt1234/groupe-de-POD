@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8" />
+        <title>Laragon</title>
+		<link rel="stylesheet" href="danielle.css">
+	</head>
+<body>
+<section>		
+	<p>bienvenue  </p>
+	<p>veuillez vous connectez pour avoir acces a la page de demande de conges  </p>
+</p>section>	
+		<form method="post">
+				
+				<label> mot de pass : <input type="text" name="pod"/></label> <br/> 
+				<label> login  :  <input type="text" name="0000"/></label>
+				 <input type="submit" value="connexion"/>
+				 <input type="submit"value="exit"/>
+			 </div>
+		</form>
+		
+</body>
+  </html>
+  

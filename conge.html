@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>conge</title>
+		<link rel="stylesheet" href="CONGE.css">
+	<head/>
+<body>
+		<h1>CREATION DE DEMANDE DE CONGE <h1/>
+				<h3>Veuillez inserer vos informations personnel<h3/>
+		<label> nom :  <input type="text" name="nom"/><label/><br/>
+		<label> prenom :  <input type="text" name="preenom"/><label/><br/>
+		<label> poste:  <input type="text" name="poste"/><label/>
+		<h3>Veuillez selectionner le type de conge que vous souhaitez obternir <h3/>
+		<form method="post" action="traitement.php">
+			<label>
+				<input type="radio" name="conge" id="conge maternite"/>
+				conge de maternite 
+			<label/><br/>
+			<label>
+				<input type="radio" name="conge" id="conge maladie"/>
+				conge maladie 
+			<label/><br/>
+			<label>
+				<input type="radio" name="conge" id="conge paternite"/>
+				conge de paternite 
+			<label/><br/>
+			<label>
+				<input type="radio" name="conge" id="conge paye"/>
+				conge de paye 
+			<label/><br/>
+			<label>
+				autre: 
+				<input type="text" name="conge" id="autres" placeholder="entrer le type de conge "/>
+				<input type="submit" name="conge" id="autres" placeholder="entrer le type de conge "/>
+				
+			<label/>
+			
+		<form/>
+		<section>
+
+		<section/>
+			<h3>veuillez selectionner la date de debut de vos conges  <h3/>
+			<input type="date" name="date" id="date"/>
+			<h3>veuillez selectionner la date de fin de vos conges  <h3/>
+			<input type="date" name="date" id="date"/>
+			<div>
+				<label>	<br/>
+                  <input type="submit" value="exit"/><br/>
+				  <input type="submit" value="envoyer la demande"/>
+				<label/>
+			<div/>
+<body/>
+<html/>
