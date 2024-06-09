@@ -1,0 +1,84 @@
+/* Applique une police de caractères personnalisée */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Centre le formulaire */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style des en-têtes de section */
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* Style des labels */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style des champs de saisie */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style du bouton de soumission */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style des sections de formulaire */
+  form > h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style des champs de saisie requis */
+  input:required,
+  textarea:required {
+    background-color: #f9f2f2;
+  }
+  
+  /* Style des champs de saisie valides */
+  input:valid,
+  textarea:valid {
+    background-color: #eaf7ea;
+  }
+  
+  /* Style des champs de saisie non valides */
+  input:invalid,
+  textarea:invalid {
+    background-color: #f7eaea;
+  }
+  
+  /* Style des pourcentages de réussite */
+  input:valid + span::after,
+  textarea:valid + span::after {
+    content: '✓';
+    color: #4CAF50;
+    padding-left: 5px;
+  }
+  
+  input:invalid + span::after,
+  textarea:invalid + span::after {
+    content: '✗';
+    color: #F44336;
+    padding-left: 5px;
+  }
