@@ -1,0 +1,24 @@
+version: '3'
+services:
+  php:
+    image: php:latest
+    volumes:
+      - ./projet:/var/www/html
+    ports:
+      - "8080:80"
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_DATABASE: resources_humaines
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 
+  apache: 
+    image: httpd:latest
+    ports:
+      - "8081:80"
+    volumes:
+      - ./projet:/usr/local/apache2/htdocs/
+    depends_on:
+      - php
+      - mysql
